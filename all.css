@@ -531,6 +531,63 @@ footer ul li a:hover{
   opacity: 0.5;
 }
 
+.main .container {
+  padding: 80px 0;
+}
+@media (max-width: 768px) {
+  .main .container {
+    padding: 64px 12px;
+  }
+}
+.main .container h2 {
+  font-size: 64px;
+  font-weight: 700;
+}
+@media (max-width: 768px) {
+  .main .container h2 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+  }
+}
+
+.mainbox {
+  margin: 32px 110px;
+}
+@media (max-width: 768px) {
+  .mainbox {
+    margin: 32px 0;
+  }
+}
+.mainbox li {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 64px;
+}
+@media (max-width: 768px) {
+  .mainbox li {
+    flex-direction: column;
+    margin-bottom: 32px;
+  }
+}
+.mainbox li img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media (max-width: 992px) {
+  .mainbox li img {
+    width: 50%;
+  }
+}
+@media (max-width: 768px) {
+  .mainbox li img {
+    width: 100%;
+  }
+}
+
+
+
 .textbox {
   width: 480px;
   background: #FFF;
