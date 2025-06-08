@@ -519,6 +519,7 @@ footer ul li a:hover{
   }
 }
 
+
 .media-icon {
   display: flex;
   align-items: center;
@@ -585,8 +586,6 @@ footer ul li a:hover{
     width: 100%;
   }
 }
-
-
 
 .textbox {
   width: 480px;
