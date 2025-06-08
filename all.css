@@ -46,15 +46,14 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
-
-
 
 *, *::before, *::after{
 	box-sizing: border-box;
 }
 img{
-    max-width: 100%;/*必加避免破版*/
+    max-width: 100%;
     height: auto;
 	/*display: block;*/
 	vertical-align: middle;
@@ -67,7 +66,7 @@ a{
 }
 
 a:hover{
-	color: #0027D5;
+	color: blue;
 }
 
 
@@ -98,7 +97,7 @@ header li a{
     padding: 24px 20px;
 }
 header li a:hover{
-    color: #0027D5;
+    color: blue;
 }
 
 /*banner*/
@@ -108,12 +107,12 @@ header li a:hover{
 }
 .banner h1{
 	font-size: 120px;
-	color: #0027D5;
+	color: blue;
 	margin-bottom: 12px;
 }
 .banner p{
 	font-size: 28px;
-	color: #0027D5;
+	color: blue;
 }
 .banner .banner-img{
 	width: 50%;
@@ -400,7 +399,7 @@ header li a:hover{
 	margin-bottom: 24px;
 }
 .article-part a{
-	color: #0027D5;
+	color: blue;
 }
 .article-part .conclusion{
 	font-weight: 700;
